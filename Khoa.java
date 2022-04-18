@@ -7,11 +7,7 @@ public class Khoa{
         System.out.println("Get fucked bitch");
     }
 
-    public String getName(){
-        return name;
-    }
-
-    public int getAge(){
-        return age;
+    public String toString(){
+        return String.format("What a %s day", "fucking");
     }
 }
